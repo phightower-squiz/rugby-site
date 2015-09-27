@@ -1,0 +1,9 @@
+@mixin border-radius-multi($tl:0, $tr:0, $br:0, $bl:0) {
+	border-top-left-radius:$tl;
+    border-top-right-radius:$tr;
+    border-bottom-right-radius:$br;
+    border-bottom-left-radius:$bl;
+}
+@mixin border-radius($n){
+	border-radius: $n;
+}
